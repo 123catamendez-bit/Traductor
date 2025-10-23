@@ -48,8 +48,8 @@ st.title("🪐 Traductor Galáctico")
 st.subheader("Escucho lo que deseas traducir a través del cosmos ✨")
 
 # 🖼️ Imagen (por ahora comentada)
-# image = Image.open('OIG7.jpg')
-# st.image(image, width=300)
+image = Image.open('galaxia.jpg')
+st.image(image, width=300)
 
 with st.sidebar:
     st.subheader("🌠 Panel de Traducción")
